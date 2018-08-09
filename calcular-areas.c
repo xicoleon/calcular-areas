@@ -15,6 +15,18 @@ Descrição: Calcular area de circulo, triangulo e quadrado
 
 int main ()
 {
-	printf ("Hello World");
+
+int a;
+int pi;
+int r;
+
+	printf("Digite o raio do circulo");
+	scanf("%d", &r);
+
+pi = 3;
+a = pi*r*r;
+
+	printf("Resultado: %d", a);
+	
 	return 0;
 }
